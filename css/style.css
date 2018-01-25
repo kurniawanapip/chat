@@ -1,0 +1,101 @@
+#loading_daftar, #loading_kirim_pesan, #loading_balas_pesan {
+	color: blue;
+	font-style: italic;
+	visibility: hidden;
+}
+
+#keterangan {
+	font-style: italic;
+	padding: 3px;
+	font-weight: bold;
+}
+
+.sukses {
+	color: green;
+}
+
+.gagal {
+	color: red;
+}
+
+.tabel_pesan {
+	background-color: #fafafa;
+}
+
+.tabel_pesan tr th {
+	background-color: #abcdef;
+	text-align: left;
+}
+
+.tabel_pesan tr td {
+	border-bottom: 2px solid #fff;
+}
+
+.pesan_belum {
+	background-color: yellow;
+	font-weight: bold;
+}
+
+.tabel_pesan a {
+	color: #000;
+}
+
+#kirim_pesan, #balas_pesan {
+	display: none;
+	width: 400px;
+	border: 3px solid #999;
+	padding: 5px;
+	margin-bottom: 20px;
+}
+
+
+*{
+	margin : 5px auto;
+}
+body {
+	background-image: url("contoh.jpg");
+}
+.pembungkus{
+	width: 80%;
+}
+
+.header {
+	background-color: yellow;
+	height: 80px;
+	border-radius: 15px; 
+	text-align: center;
+	padding-top: 1%;
+}
+
+.isi {
+	overflow: hidden;
+}
+.isi1 {
+	float: left;
+	background-color:#7FD4FF;
+	width: 54%;
+	border-radius: 15px;
+	margin-right: 1%;
+	height: 430px;
+	text-align: center;
+	padding-top: 15%;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+.isi2 {
+	float: right;
+	border-radius: 15px;
+	background-color:#557FFF;
+	width: 36%;
+	height: 550px;
+	text-align: left;
+	padding: 2%; 
+}
+
+.footer {
+	border-radius: 15px;
+	background-color: #D2D2D2;
+	text-align: center;
+	color: red;
+	padding: 1%;
+}
